@@ -31,15 +31,9 @@
                                     <action selector="openAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eFE-3t-pe5"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1sw-K9-HeA">
-                                <rect key="frame" x="16" y="414" width="343" height="126"/>
-                                <connections>
-                                    <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="92u-sN-8vX"/>
-                                </connections>
-                            </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YhD-8X-tw9">
                                 <rect key="frame" x="16" y="129" width="343" height="170"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="170" id="kec-2c-xPf"/>
                                 </constraints>
@@ -47,14 +41,10 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="1sw-K9-HeA" firstAttribute="width" secondItem="eo3-5d-yJO" secondAttribute="width" id="8yt-Df-OlF"/>
                             <constraint firstItem="YvE-3G-3kN" firstAttribute="top" secondItem="eo3-5d-yJO" secondAttribute="bottom" constant="39" id="DHl-Nl-z1D"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eo3-5d-yJO" secondAttribute="trailing" constant="16" id="Lf4-T4-kQw"/>
                             <constraint firstItem="eo3-5d-yJO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="WOc-OP-ILu"/>
-                            <constraint firstItem="1sw-K9-HeA" firstAttribute="centerX" secondItem="eo3-5d-yJO" secondAttribute="centerX" id="cnr-Xw-OW5"/>
-                            <constraint firstItem="1sw-K9-HeA" firstAttribute="height" secondItem="eo3-5d-yJO" secondAttribute="height" constant="-44" id="f6f-Vl-5r7"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YhD-8X-tw9" secondAttribute="trailing" constant="16" id="fVH-1w-MDK"/>
-                            <constraint firstItem="1sw-K9-HeA" firstAttribute="centerY" secondItem="eo3-5d-yJO" secondAttribute="centerY" constant="263" id="gba-Ll-ZOC"/>
                             <constraint firstItem="eo3-5d-yJO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="65" id="lU6-dX-Sgh"/>
                             <constraint firstItem="YhD-8X-tw9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="pxc-tG-rlZ"/>
                             <constraint firstItem="YvE-3G-3kN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qfg-Jc-MBc"/>

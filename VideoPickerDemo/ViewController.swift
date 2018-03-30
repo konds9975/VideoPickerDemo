@@ -14,10 +14,7 @@ class ViewController: UIViewController {
 
     var playerController : AVPlayerViewController?
     @IBOutlet weak var view1: UIView!
-    @IBAction func play(_ sender: Any) {
-        
-        playerController?.player?.play()
-    }
+   
     var imagePickerController = UIImagePickerController()
     var videoURL: URL?
     @IBOutlet weak var imageView: UIImageView!
@@ -90,7 +87,7 @@ extension ViewController: UIImagePickerControllerDelegate, UINavigationControlle
         playerController = AVPlayerViewController()
         let player = AVPlayer(url: videoURL!)
         playerController?.player = player
-        playerController?.videoGravity = AVLayerVideoGravityResizeAspectFill
+        playerController?.videoGravity = AVLayerVideoGravityResizeAspect
         self.addChildViewController(playerController!)
         self.view1.addSubview((playerController?.view)!)
         playerController?.view.frame = view1.bounds
