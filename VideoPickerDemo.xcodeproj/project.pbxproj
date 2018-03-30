@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFCCC51F206E7CC300DF500B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCCC51E206E7CC300DF500B /* AppDelegate.swift */; };
+		FFCCC521206E7CC300DF500B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCCC520206E7CC300DF500B /* ViewController.swift */; };
+		FFCCC524206E7CC300DF500B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFCCC522206E7CC300DF500B /* Main.storyboard */; };
+		FFCCC527206E7CC300DF500B /* VideoPickerDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FFCCC525206E7CC300DF500B /* VideoPickerDemo.xcdatamodeld */; };
+		FFCCC529206E7CC300DF500B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFCCC528206E7CC300DF500B /* Assets.xcassets */; };
+		FFCCC52C206E7CC300DF500B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFCCC52A206E7CC300DF500B /* LaunchScreen.storyboard */; };
+		FFCCC537206E7CC300DF500B /* VideoPickerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCCC536206E7CC300DF500B /* VideoPickerDemoTests.swift */; };
+		FFCCC542206E7CC400DF500B /* VideoPickerDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCCC541206E7CC400DF500B /* VideoPickerDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFCCC533206E7CC300DF500B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFCCC513206E7CC300DF500B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFCCC51A206E7CC300DF500B;
+			remoteInfo = VideoPickerDemo;
+		};
+		FFCCC53E206E7CC400DF500B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFCCC513206E7CC300DF500B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFCCC51A206E7CC300DF500B;
+			remoteInfo = VideoPickerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFCCC51B206E7CC300DF500B /* VideoPickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoPickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFCCC51E206E7CC300DF500B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFCCC520206E7CC300DF500B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFCCC523206E7CC300DF500B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFCCC526206E7CC300DF500B /* VideoPickerDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VideoPickerDemo.xcdatamodel; sourceTree = "<group>"; };
+		FFCCC528206E7CC300DF500B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFCCC52B206E7CC300DF500B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFCCC52D206E7CC300DF500B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFCCC532206E7CC300DF500B /* VideoPickerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoPickerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFCCC536206E7CC300DF500B /* VideoPickerDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPickerDemoTests.swift; sourceTree = "<group>"; };
+		FFCCC538206E7CC300DF500B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFCCC53D206E7CC300DF500B /* VideoPickerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoPickerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFCCC541206E7CC400DF500B /* VideoPickerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPickerDemoUITests.swift; sourceTree = "<group>"; };
+		FFCCC543206E7CC400DF500B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFCCC518206E7CC300DF500B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFCCC52F206E7CC300DF500B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFCCC53A206E7CC300DF500B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFCCC512206E7CC300DF500B = {
+			isa = PBXGroup;
+			children = (
+				FFCCC51D206E7CC300DF500B /* VideoPickerDemo */,
+				FFCCC535206E7CC300DF500B /* VideoPickerDemoTests */,
+				FFCCC540206E7CC400DF500B /* VideoPickerDemoUITests */,
+				FFCCC51C206E7CC300DF500B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFCCC51C206E7CC300DF500B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFCCC51B206E7CC300DF500B /* VideoPickerDemo.app */,
+				FFCCC532206E7CC300DF500B /* VideoPickerDemoTests.xctest */,
+				FFCCC53D206E7CC300DF500B /* VideoPickerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFCCC51D206E7CC300DF500B /* VideoPickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FFCCC51E206E7CC300DF500B /* AppDelegate.swift */,
+				FFCCC520206E7CC300DF500B /* ViewController.swift */,
+				FFCCC522206E7CC300DF500B /* Main.storyboard */,
+				FFCCC528206E7CC300DF500B /* Assets.xcassets */,
+				FFCCC52A206E7CC300DF500B /* LaunchScreen.storyboard */,
+				FFCCC52D206E7CC300DF500B /* Info.plist */,
+				FFCCC525206E7CC300DF500B /* VideoPickerDemo.xcdatamodeld */,
+			);
+			path = VideoPickerDemo;
+			sourceTree = "<group>";
+		};
+		FFCCC535206E7CC300DF500B /* VideoPickerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFCCC536206E7CC300DF500B /* VideoPickerDemoTests.swift */,
+				FFCCC538206E7CC300DF500B /* Info.plist */,
+			);
+			path = VideoPickerDemoTests;
+			sourceTree = "<group>";
+		};
+		FFCCC540206E7CC400DF500B /* VideoPickerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFCCC541206E7CC400DF500B /* VideoPickerDemoUITests.swift */,
+				FFCCC543206E7CC400DF500B /* Info.plist */,
+			);
+			path = VideoPickerDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFCCC51A206E7CC300DF500B /* VideoPickerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFCCC546206E7CC400DF500B /* Build configuration list for PBXNativeTarget "VideoPickerDemo" */;
+			buildPhases = (
+				FFCCC517206E7CC300DF500B /* Sources */,
+				FFCCC518206E7CC300DF500B /* Frameworks */,
+				FFCCC519206E7CC300DF500B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoPickerDemo;
+			productName = VideoPickerDemo;
+			productReference = FFCCC51B206E7CC300DF500B /* VideoPickerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFCCC531206E7CC300DF500B /* VideoPickerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFCCC549206E7CC400DF500B /* Build configuration list for PBXNativeTarget "VideoPickerDemoTests" */;
+			buildPhases = (
+				FFCCC52E206E7CC300DF500B /* Sources */,
+				FFCCC52F206E7CC300DF500B /* Frameworks */,
+				FFCCC530206E7CC300DF500B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFCCC534206E7CC300DF500B /* PBXTargetDependency */,
+			);
+			name = VideoPickerDemoTests;
+			productName = VideoPickerDemoTests;
+			productReference = FFCCC532206E7CC300DF500B /* VideoPickerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFCCC53C206E7CC300DF500B /* VideoPickerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFCCC54C206E7CC400DF500B /* Build configuration list for PBXNativeTarget "VideoPickerDemoUITests" */;
+			buildPhases = (
+				FFCCC539206E7CC300DF500B /* Sources */,
+				FFCCC53A206E7CC300DF500B /* Frameworks */,
+				FFCCC53B206E7CC300DF500B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFCCC53F206E7CC400DF500B /* PBXTargetDependency */,
+			);
+			name = VideoPickerDemoUITests;
+			productName = VideoPickerDemoUITests;
+			productReference = FFCCC53D206E7CC300DF500B /* VideoPickerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFCCC513206E7CC300DF500B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Kondiram Sonawane";
+				TargetAttributes = {
+					FFCCC51A206E7CC300DF500B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FFCCC531206E7CC300DF500B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FFCCC51A206E7CC300DF500B;
+					};
+					FFCCC53C206E7CC300DF500B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FFCCC51A206E7CC300DF500B;
+					};
+				};
+			};
+			buildConfigurationList = FFCCC516206E7CC300DF500B /* Build configuration list for PBXProject "VideoPickerDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFCCC512206E7CC300DF500B;
+			productRefGroup = FFCCC51C206E7CC300DF500B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFCCC51A206E7CC300DF500B /* VideoPickerDemo */,
+				FFCCC531206E7CC300DF500B /* VideoPickerDemoTests */,
+				FFCCC53C206E7CC300DF500B /* VideoPickerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFCCC519206E7CC300DF500B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFCCC52C206E7CC300DF500B /* LaunchScreen.storyboard in Resources */,
+				FFCCC529206E7CC300DF500B /* Assets.xcassets in Resources */,
+				FFCCC524206E7CC300DF500B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFCCC530206E7CC300DF500B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFCCC53B206E7CC300DF500B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFCCC517206E7CC300DF500B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFCCC527206E7CC300DF500B /* VideoPickerDemo.xcdatamodeld in Sources */,
+				FFCCC521206E7CC300DF500B /* ViewController.swift in Sources */,
+				FFCCC51F206E7CC300DF500B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFCCC52E206E7CC300DF500B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFCCC537206E7CC300DF500B /* VideoPickerDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFCCC539206E7CC300DF500B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFCCC542206E7CC400DF500B /* VideoPickerDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFCCC534206E7CC300DF500B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFCCC51A206E7CC300DF500B /* VideoPickerDemo */;
+			targetProxy = FFCCC533206E7CC300DF500B /* PBXContainerItemProxy */;
+		};
+		FFCCC53F206E7CC400DF500B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFCCC51A206E7CC300DF500B /* VideoPickerDemo */;
+			targetProxy = FFCCC53E206E7CC400DF500B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFCCC522206E7CC300DF500B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFCCC523206E7CC300DF500B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFCCC52A206E7CC300DF500B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFCCC52B206E7CC300DF500B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFCCC544206E7CC400DF500B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFCCC545206E7CC400DF500B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFCCC547206E7CC400DF500B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZP95T9MQBZ;
+				INFOPLIST_FILE = VideoPickerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VideoPickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFCCC548206E7CC400DF500B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZP95T9MQBZ;
+				INFOPLIST_FILE = VideoPickerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VideoPickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFCCC54A206E7CC400DF500B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZP95T9MQBZ;
+				INFOPLIST_FILE = VideoPickerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VideoPickerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoPickerDemo.app/VideoPickerDemo";
+			};
+			name = Debug;
+		};
+		FFCCC54B206E7CC400DF500B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZP95T9MQBZ;
+				INFOPLIST_FILE = VideoPickerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VideoPickerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoPickerDemo.app/VideoPickerDemo";
+			};
+			name = Release;
+		};
+		FFCCC54D206E7CC400DF500B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZP95T9MQBZ;
+				INFOPLIST_FILE = VideoPickerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VideoPickerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VideoPickerDemo;
+			};
+			name = Debug;
+		};
+		FFCCC54E206E7CC400DF500B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZP95T9MQBZ;
+				INFOPLIST_FILE = VideoPickerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VideoPickerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VideoPickerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFCCC516206E7CC300DF500B /* Build configuration list for PBXProject "VideoPickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFCCC544206E7CC400DF500B /* Debug */,
+				FFCCC545206E7CC400DF500B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFCCC546206E7CC400DF500B /* Build configuration list for PBXNativeTarget "VideoPickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFCCC547206E7CC400DF500B /* Debug */,
+				FFCCC548206E7CC400DF500B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFCCC549206E7CC400DF500B /* Build configuration list for PBXNativeTarget "VideoPickerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFCCC54A206E7CC400DF500B /* Debug */,
+				FFCCC54B206E7CC400DF500B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFCCC54C206E7CC400DF500B /* Build configuration list for PBXNativeTarget "VideoPickerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFCCC54D206E7CC400DF500B /* Debug */,
+				FFCCC54E206E7CC400DF500B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FFCCC525206E7CC300DF500B /* VideoPickerDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FFCCC526206E7CC300DF500B /* VideoPickerDemo.xcdatamodel */,
+			);
+			currentVersion = FFCCC526206E7CC300DF500B /* VideoPickerDemo.xcdatamodel */;
+			path = VideoPickerDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FFCCC513206E7CC300DF500B /* Project object */;
+}
