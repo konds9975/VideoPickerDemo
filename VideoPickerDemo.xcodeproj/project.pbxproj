@@ -12,9 +12,9 @@
 		FFCCC524206E7CC300DF500B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFCCC522206E7CC300DF500B /* Main.storyboard */; };
 		FFCCC527206E7CC300DF500B /* VideoPickerDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FFCCC525206E7CC300DF500B /* VideoPickerDemo.xcdatamodeld */; };
 		FFCCC529206E7CC300DF500B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFCCC528206E7CC300DF500B /* Assets.xcassets */; };
-		FFCCC52C206E7CC300DF500B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFCCC52A206E7CC300DF500B /* LaunchScreen.storyboard */; };
 		FFCCC537206E7CC300DF500B /* VideoPickerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCCC536206E7CC300DF500B /* VideoPickerDemoTests.swift */; };
 		FFCCC542206E7CC400DF500B /* VideoPickerDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCCC541206E7CC400DF500B /* VideoPickerDemoUITests.swift */; };
+		FFCCC550206E7E2700DF500B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFCCC54F206E7E2700DF500B /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,6 @@
 		FFCCC523206E7CC300DF500B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FFCCC526206E7CC300DF500B /* VideoPickerDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VideoPickerDemo.xcdatamodel; sourceTree = "<group>"; };
 		FFCCC528206E7CC300DF500B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FFCCC52B206E7CC300DF500B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFCCC52D206E7CC300DF500B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFCCC532206E7CC300DF500B /* VideoPickerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoPickerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFCCC536206E7CC300DF500B /* VideoPickerDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPickerDemoTests.swift; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		FFCCC53D206E7CC300DF500B /* VideoPickerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoPickerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFCCC541206E7CC400DF500B /* VideoPickerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPickerDemoUITests.swift; sourceTree = "<group>"; };
 		FFCCC543206E7CC400DF500B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFCCC54F206E7E2700DF500B /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,7 @@
 				FFCCC520206E7CC300DF500B /* ViewController.swift */,
 				FFCCC522206E7CC300DF500B /* Main.storyboard */,
 				FFCCC528206E7CC300DF500B /* Assets.xcassets */,
-				FFCCC52A206E7CC300DF500B /* LaunchScreen.storyboard */,
+				FFCCC54F206E7E2700DF500B /* Launch Screen.storyboard */,
 				FFCCC52D206E7CC300DF500B /* Info.plist */,
 				FFCCC525206E7CC300DF500B /* VideoPickerDemo.xcdatamodeld */,
 			);
@@ -235,7 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFCCC52C206E7CC300DF500B /* LaunchScreen.storyboard in Resources */,
+				FFCCC550206E7E2700DF500B /* Launch Screen.storyboard in Resources */,
 				FFCCC529206E7CC300DF500B /* Assets.xcassets in Resources */,
 				FFCCC524206E7CC300DF500B /* Main.storyboard in Resources */,
 			);
@@ -306,14 +306,6 @@
 				FFCCC523206E7CC300DF500B /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FFCCC52A206E7CC300DF500B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FFCCC52B206E7CC300DF500B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -436,7 +428,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VideoPickerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -451,7 +443,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VideoPickerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
